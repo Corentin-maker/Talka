@@ -2,7 +2,7 @@
 // Lance avec : node server.js
 
 const http = require('http');
-const WebSocket = require('ws');
+socket = new WebSocket('ws://192.168.1.28:3000'); // Mets ton IP ici
 
 const server = http.createServer();
 const wss = new WebSocket.Server({ server });
